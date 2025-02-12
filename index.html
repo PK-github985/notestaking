@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <button class="btn btn-primary" id="newFolderBtn">New Folder +</button>
+        <div class="folders-list" id="foldersList"></div>
+    </div>
+
+    <div class="main-content" id="mainContent">
+        <div class="header">
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <h2 id="currentFolder">My Notes</h2>
+            <button class="btn btn-primary" id="newNoteBtn">New Note +</button>
+        </div>
+        <div class="notes-grid" id="notesGrid"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
