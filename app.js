@@ -146,7 +146,7 @@ class NotesApp {
             });
 
             contentEl.addEventListener('input', () => {
-                note.content = contentEl.textContent;
+                note.content = contentEl.innerHTML;
                 this.saveToLocalStorage();
             });
 
